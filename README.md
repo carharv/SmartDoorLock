@@ -32,10 +32,12 @@ This project turns any deadbolt door lock into an electronic IOT lock by using a
    11. You may need to adjust the lockedState and unlockedState variables depending on your lock. 
    12. Once you are ready to upload the code go to the Sketch tab and click the upload button.
    
-   **3D Printed Enclosure**
+   **3D Printed Enclosure:**
+   
    You can download the STI files in the repository. If you don't personally have a 3D printer, most public libraries and universities      have one. Additionally, you can use a service like ShapeWays to have the parts printed and mailed to you. Feel free to design and        print your own enclosure, or make it out of wood or something.
    
-   **Connecting everything together**
+   **Connecting everything together:**
+   
    1. Start by modifying one of the USB cables to supply power to the servo. Cut MicroUSB connector off of the end of the cable. Strip         back the sheathing on the positive (usually red) wire and the negative (usually black) wire. The other wires are not necessary for       powering the servo and can be cut away or folded back. Take three of the male to female jumper wires and cut the female ends off         of them. Strip back some of the sheathing and solder one jumper wire to the positive USB wire and the other two jumper wires to         the negative USB wire. Use electrical tape or heatshrink to strengthen and protect the solder joints. What you should be left with       is a male USB plug on one end and three male jumper wires on the other end (one connected to positive, two connected to ground). 
    2. Connect the positive USB jumper wire to the positve wire and one of the negative USB jumper wires to the negative wire on the           servo. Connect the other negative jumper wire to a GND pin on the ESP8266. 
    3. Take another male to female jumper wire and connect the male end to the signal (usually yellow) wire on the servo. Connect the           female end to pin D4 (GPIO 2) on the ESP8266.
@@ -45,7 +47,8 @@ This project turns any deadbolt door lock into an electronic IOT lock by using a
    7. At this point, everything should be working. Test it out by pushing the physical button or the button in the Blynk app. 
    8. If all is working as it should, attach everything to the 3D printed housing and stick it on the door. I used velcro command strips       to make the entire thing easily removable. 
    
-   **Setting up the NFC tags**
+   **Setting up the NFC tags:**
+
    I have an iPhone so these steps will be specific to the Shortcuts app, but it should be very similar on the Android Tasker app. 
    
    1. Download the Shortcuts app if you haven't already and open it.
@@ -57,6 +60,9 @@ This project turns any deadbolt door lock into an electronic IOT lock by using a
    7. The URL will be the IP address of Blynk's server in combination with your Blynk Auth Token. To find the Blynk IP address, open a         command or terminal window and ping Blynk-Cloud.com. At the time of writing it is 45.55.96.146. This is how the URL should look:
       **http://45.55.96.146/*YOURAUTHTOKEN*/update/V0?value=0**
       This shortcut will unlock the door whenever your phone scans the NFC tag. Repeat the above steps to make a shortcut that locks the       door, but change the *value=0* at the end of the URL to *value=1*. Once you have the shortcuts made, you can click on them and           toggle the Ask Before Running setting to off so that the door will unlock/lock as long as your screen is awake. I have also foound       that shortcuts do not run while on a FaceTime call. 
+      
+      
+      
       
       Thats it! Enjoy the convenience of your new smart lock. If you have any questions I will try to answer them as best as I can. 
   
