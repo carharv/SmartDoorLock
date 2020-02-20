@@ -9,6 +9,9 @@ This project turns any deadbolt door lock into an electronic IOT lock with a Nod
   - NFC Tags (http://bit.ly/AmazonNFCTags)
   - Access to a 3D Printer to make the enclosure
   - 2 MicroUSB cables
+  - Soldering iron and solder
+  - Wire cutter
+  - Wire stripper
   
   **Blynk Setup:**
    1. Download the blynk app on your mobile device.
