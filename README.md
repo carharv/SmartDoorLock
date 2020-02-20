@@ -13,7 +13,7 @@ This project turns any deadbolt door lock into an electronic IOT lock with a Nod
   - Wire cutter
   - Wire stripper
   
-  Total new material cost: ~$40
+  Total new materials cost: ~$40
   
   **Blynk Setup:**
    1. Download the blynk app on your mobile device.
