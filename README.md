@@ -38,6 +38,8 @@ This project turns any deadbolt door lock into an electronic IOT lock by using a
    
    **Connecting everything together:**
    
+   ![Circuit Diagram](https://i.ibb.co/XSDXpX3/circuit.png)
+   
    1. Start by modifying one of the USB cables to supply power to the servo. Cut MicroUSB connector off of the end of the cable. Strip         back the sheathing on the positive (usually red) wire and the negative (usually black) wire. The other wires are not necessary for       powering the servo and can be cut away or folded back. Take three of the male to female jumper wires and cut the female ends off         of them. Strip back some of the sheathing and solder one jumper wire to the positive USB wire and the other two jumper wires to         the negative USB wire. Use electrical tape or heatshrink to strengthen and protect the solder joints. What you should be left with       is a male USB plug on one end and three male jumper wires on the other end (one connected to positive, two connected to ground). 
    2. Connect the positive USB jumper wire to the positve wire and one of the negative USB jumper wires to the negative wire on the           servo. Connect the other negative jumper wire to a GND pin on the ESP8266. 
    3. Take another male to female jumper wire and connect the male end to the signal (usually yellow) wire on the servo. Connect the           female end to pin D4 (GPIO 2) on the ESP8266.
