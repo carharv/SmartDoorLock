@@ -37,7 +37,7 @@ This project turns any deadbolt door lock into an electronic IOT lock with a Nod
    
    **3D Printed Enclosure:**
    
-   You can download the STI files in the repository. If you don't personally have a 3D printer, most public libraries and universities      have one. Additionally, you can use a service like ShapeWays to have the parts printed and mailed to you. Feel free to design and        print your own enclosure, or make it out of wood or something.
+   You can download the STL files in the repository. If you don't personally have a 3D printer, most public libraries and universities      have one. Additionally, you can use a service like ShapeWays to have the parts printed and mailed to you. Feel free to design and        print your own enclosure, or make it out of wood or something.
    
    **Connecting everything together:**
    
