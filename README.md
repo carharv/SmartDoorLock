@@ -1,5 +1,5 @@
 # Smart Door Lock by Carson Harvey
-This project turns any deadbolt door lock into an electronic IOT lock with a NodeMCU ESP8266 and a servo. The lock is connected to the internet through Blynk and can be controlled through a phone app, NFC tag in combination with IOS shortcuts / Android Tasker, and a physical button.  
+This project turns any deadbolt door lock, without permanent modification, into an electronic IOT lock with a NodeMCU ESP8266 and a servo. The lock is connected to the internet through Blynk and can be controlled through a phone app, NFC tag in combination with IOS shortcuts / Android Tasker, and a physical button.  
 
 **Items needed:**
   - NodeMCU ESP8266: ~$5 each (http://bit.ly/AmazonNodeMCU)
