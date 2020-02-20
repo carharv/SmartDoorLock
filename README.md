@@ -2,16 +2,18 @@
 This project turns any deadbolt door lock into an electronic IOT lock with a NodeMCU ESP8266 and a servo. The lock is connected to the internet through Blynk and can be controlled through a phone app, NFC tag in combination with IOS shortcuts / Android Tasker, and a physical button.  
 
 **Items needed:**
-  - NodeMCU ESP8266 (http://bit.ly/AmazonNodeMCU)
-  - TowerPro MG995R High Torque Servo (http://bit.ly/adafuitservo)
-  - Push Button (http://bit.ly/AmazonPushButtons)
-  - Jumper Wires (http://bit.ly/AmazonJumperWires)
-  - NFC Tags (http://bit.ly/AmazonNFCTags)
+  - NodeMCU ESP8266: ~$5 each (http://bit.ly/AmazonNodeMCU)
+  - TowerPro MG995R High Torque Servo: ~$20 each (http://bit.ly/adafuitservo)
+  - Push Button: ~$0.30 each (http://bit.ly/AmazonPushButtons)
+  - Jumper Wires: ~$6 for 120 (http://bit.ly/AmazonJumperWires)
+  - NFC Tags: ~$6 for 10 (http://bit.ly/AmazonNFCTags)
   - Access to a 3D Printer to make the enclosure
   - 2 MicroUSB cables
   - Soldering iron and solder
   - Wire cutter
   - Wire stripper
+  
+  Total new material cost: ~$40
   
   **Blynk Setup:**
    1. Download the blynk app on your mobile device.
