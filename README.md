@@ -65,7 +65,7 @@ This project turns any deadbolt door lock into an electronic IOT lock with a Nod
    5. Click the scan button and tap your phone on one of the NFC stickers. The NFC reader on the iPhone 11 is in the upper middle             section on the back of the phone.
    6. Once you have the NFC tag scanned, set the action to Get Contents of URL.
    7. The URL will be the IP address of Blynk's server in combination with your Blynk Auth Token. To find the Blynk IP address, open a         command or terminal window and ping Blynk-Cloud.com. At the time of writing it is 45.55.96.146. This is how the URL should look:
-      **http://45.55.96.146/*YOURAUTHTOKEN*/update/V0?value=0**
+      **http://45.55.96.146/YOURAUTHTOKEN/update/V0?value=0**
       This shortcut will unlock the door whenever your phone scans the NFC tag. Repeat the above steps to make a shortcut that locks the       door, but change the *value=0* at the end of the URL to *value=1*. Once you have the shortcuts made, you can click on them and           toggle the Ask Before Running setting to off so that the door will unlock/lock as long as your screen is awake. I have also foound       that shortcuts do not run while on a FaceTime call. 
       
       
